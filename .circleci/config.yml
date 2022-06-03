@@ -9,6 +9,6 @@ jobs:
           arguments: |
             --acl public-read
           from: website
-          to: 's3://db-aws-bucket'      
+          to: 's3://aws-bucket-s3-web1'      
 orbs:
   aws-s3: circleci/aws-s3@2.0.0
